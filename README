@@ -12,7 +12,7 @@ being developed in the series.
 WeeWikiPaint
 
 To build:
+- Install node.js
 - Install git
 - Clone the repository
-- Assumes presence of Node.js
-- Run ./jake.bat to build
+- Run jake.bat to build
