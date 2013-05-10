@@ -14,9 +14,11 @@ User Stories:
 - marketing copy
 
 Engineering Tasks:
-- continuous integration
-- server-side testing
+* server-side testing
 - client-side testing
 
 To Do on current task:
-- make build fail when Lint fails
+
+
+Future ideas:
+- Abstract test framework? (Swap out a different framework to make sure abstraction works.)
