@@ -3,8 +3,6 @@
 var server = require("./server.js");
 var http = require("http");
 
-//TODO: handle case where stop() is called before start()
-
 exports.test_serverReturnsHelloWorld = function(test) {
     server.start(8080);
     var request = http.get("http://localhost:8080");
@@ -23,6 +21,11 @@ exports.test_serverReturnsHelloWorld = function(test) {
             });
         });
     });
+};
+
+exports.test_serverServesAFile = function(test) {
+    test.done();
+    // TODO
 };
 
 exports.test_serverRequiresPortNumber = function(test) {
