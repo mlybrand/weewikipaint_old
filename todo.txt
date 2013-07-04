@@ -8,21 +8,19 @@ Minimum Marketable Feature:
 - more collaborative features?
 
 User Stories:
-* Serve a one-file-homepage
-- Serve 404 errors for everything else
 - marketing copy
 - Publish to Internet
 
 Engineering Tasks:
-* Spike serving a file
-- TDD file serving
-- design work?
+- Exploratory testing
 
 To Do on current task:
 
 Future ideas:
 - Create 'fail fast' assertion code
 - Abstract test framework? (Swap out a different framework to make sure abstraction works.)
+- Static checking of function parameters (rather than writing tests)
+- Handle errors properly in server.js
 
 Notes:
 - Nodeunit doesn't work properly on Windows.
